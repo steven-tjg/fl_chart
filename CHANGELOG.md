@@ -1,3 +1,6 @@
+## new version
+*  Added `checkToShowTitle` property to the [SideTitles](https://github.com/imaNNeoFighT/fl_chart/blob/master/repo_files/documentations/base_chart.md#sidetitles), for checking show or not show titles in the provided value, #331.
+
 ## 0.9.4
 * [Bugfix] Fixed showing PieChart on web (we've ignored `groupSpace` on web, because some BlendModes are [not working](https://github.com/flutter/flutter/issues/56071) yet)
 
