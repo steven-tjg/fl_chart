@@ -295,6 +295,7 @@ class SideTitles with EquatableMixin {
       margin: lerpDouble(a.margin, b.margin, t),
       interval: lerpDouble(a.interval, b.interval, t),
       rotateAngle: lerpDouble(a.rotateAngle, b.rotateAngle, t),
+      checkToShowTitle: b.checkToShowTitle,
     );
   }
 
@@ -308,6 +309,7 @@ class SideTitles with EquatableMixin {
         margin,
         interval,
         rotateAngle,
+        checkToShowTitle,
       ];
 }
 
